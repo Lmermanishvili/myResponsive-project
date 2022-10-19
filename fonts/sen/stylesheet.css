@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Sen';
+    src: url('Sen-Bold.eot');
+    src: url('Sen-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Sen-Bold.woff2') format('woff2'),
+        url('Sen-Bold.woff') format('woff'),
+        url('Sen-Bold.svg#Sen-Bold') format('svg');
+}
+

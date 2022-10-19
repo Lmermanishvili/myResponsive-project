@@ -1,0 +1,409 @@
+/* basic class */
+h1{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: capitalize;
+    color: #fff;
+}
+h2{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+}
+h3{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+}
+h6{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+p{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.color{
+    color: gold;
+}
+a{
+    color: #fff;
+    text-transform: uppercase;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+/* home page */
+body{
+    background: #020015;
+}
+.container{
+    justify-content: center;
+    max-width: 1440px;
+    background: #020015;
+}
+.logo_nav{
+    position: fixed;
+    width: 1113px;
+    margin-top: 60px;
+    background-color: rgba(2, 0, 21, 0.8);
+    border-radius: 80px;
+    z-index: 1;
+}
+.logo_nav a img{
+    margin-right: 10px;
+}
+.nav{
+    margin-left: 198px;
+}
+li a{
+    margin-right: 37px;
+}
+li a:nth-child(4){
+    margin-right: 0px;
+}
+button{
+    width: 200px;
+    height: 60px;
+    margin-left: 95px;
+    background: #2B61D1;
+    border-radius: 60px;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.burger_icon{
+    display: none;
+}
+/* homee title */
+section .container{
+    max-width: 1240px;
+    display: flex;
+    margin-top: 175px;
+    justify-content: space-between;
+    margin-right: 0;
+}
+.social_box{
+    width: 86px;
+    height: 324px;
+    padding: 56px 0 0 16px;
+    background-color: #2B61D1;
+    border-radius: 0 60px 60px 0;
+}
+.social_box img{
+    margin-bottom: 33px;
+}
+.home_title_box{
+    display: flex;
+    justify-content: space-between;
+    width: 1040px;
+}
+.home_article_box{
+    width: 466px;
+}
+.home_article_box h1{
+    margin-top: 99px;
+}
+.home_article_box p{
+    margin-top: 15px;
+}
+.home_article_box button{
+    width: 333px;
+    height: 70px;
+    margin: 40px 0 0 0;
+    background-color: #020015;
+    border: 2px solid #2B61D1;
+    border-radius: 60px;
+    text-transform: capitalize;
+}
+.home_article_box button:hover {
+    background-color: #2B61D1;
+}
+/* second section */
+.second_title .container{
+    display: flex;
+    margin: 191px auto 92px auto;    
+}
+.features_box{
+    width: 978px;
+    display: flex;
+    justify-content: space-between;
+}
+.features_title_box{
+    width: 473px;
+}
+.features_title_box h3{
+    color: #fff;
+}
+.features_title_box p{
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.features_title_box button{
+    width: 394px;
+    height: 70px;
+    margin: 46px 0 0 0;
+    background-color: #020015;
+    border: 2px solid #2B61D1;
+    border-radius: 60px;
+    text-transform: none;
+}
+/* servise */
+.servise_container{
+    max-width: 1440px;
+    padding: 72px 0 132px 0;
+    background: #FAFAFA;
+}
+.servise_article_box{
+    width: 755px;
+    margin: 0 auto;
+    text-align: center;
+}
+.servise_article_box h2{
+    color: #020015;
+    margin-bottom: 15px;
+}
+.servise_article_box h6{
+    color: #7D7D7D;
+}
+.service_title .servise_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.servis_container_item{
+    width: 1218px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 132px;
+}
+.all_item_container{
+    width: 322px;
+    height: 254px;
+    background: #FAFAFA;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    text-align: center;
+}
+.servis_container_item .kedana{
+    background: url(../image/KADENA\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-y: 22px;
+}
+.kedana h6{
+    margin-top: 159px;
+    color: #ED098F;
+    text-transform: uppercase;
+}
+.servis_container_item .ethereum{
+    background: url(../image/kadena\ 2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-y: 22px;
+}
+.ethereum h6{
+    margin-top: 159px;
+    color: #343434;
+    text-transform: uppercase;
+}
+.servis_container_item .binance{
+    background: url(../image/binace.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-y: 22px;
+}
+.binance h6{
+    margin-top: 159px;
+    color: #F3BA2F;
+    text-transform: uppercase;
+}
+.kedana .h6_color{
+    margin-top: 0;
+    color: rgba(0, 0, 0, 0.5);
+}
+.ethereum .h6_color{
+    margin-top: 0;
+    color: rgba(0, 0, 0, 0.5);
+}
+.binance .h6_color{
+    margin-top: 0;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* responsive design */
+@media (max-width: 1155px) {
+    /* header */
+    .nav{
+        display: none;
+    }
+    .burger_icon{
+        display: block;
+    }
+    .logo_nav{
+        width: 95%;
+        padding-right: 10px;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+} 
+@media (max-width: 1024px) {
+    section .container{
+        align-items: center;
+        margin-top: 136px;
+    }
+    .home_title_box{
+        align-items: center;
+    }
+    .home_title_box img{
+        display: none;
+    }
+    .home_article_box{
+        width: 464px;
+        height: 506px;
+        margin: 0 auto;
+        padding-bottom: 93px;
+        text-align: center;
+
+        background: url(../image/Crypto-home\ 2.png);
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    .home_article_box button{
+        width: 204px;
+        font-size: 24px;
+        line-height: 29px;
+        background-color: rgb(2, 0, 21, 0.1);
+    }
+    .second_title .container{
+        width: 500px;
+        margin-top: 163px;
+        padding: 45px 0 56px 0;
+        background: url(../image/Security\ 2.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        text-align: center;
+    }
+    .features_box img{
+        display: none;
+    }
+    .features_box button{
+        width: 275px;
+        font-size: 24px;
+        line-height: 29px;
+        background-color: rgb(2, 0, 21, 0.1);
+    }
+    .servise_container{
+        padding: 54px 0 119px 0;
+    }
+    .servise_article_box{
+        width: 477px;
+    }
+    .servise_article_box h2{
+        font-size: 36px;
+        line-height: 43px;
+    }
+     .servis_container_item{
+        flex-wrap: wrap;
+        width: 410px;
+        justify-content: center;
+    }
+    .servis_container_item .ethereum{
+        margin: 105px 0;
+    }
+} 
+@media (max-width: 528px) {
+    .logo_nav{
+        width: 95%;
+    }
+    .social_box{
+        display: none;
+    }
+    section .container{
+        margin-top: 188px;
+    }
+    .home_title_box{
+        max-width: 291px;
+        margin: 0 auto;
+    }
+    .home_article_box{
+        background: url(../image/Crypto-home\ 2\ smoll.png);
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    .home_article_box h1{
+        margin-top: 0;
+        margin-bottom: 25px;
+
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .home_article_box p{
+        margin-bottom: 34px;
+
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .home_article_box button{
+        margin-top: 0;
+    }
+    .second_title .container{
+        width: 300px;
+        padding: 0;
+        margin-top: 205px;
+
+        background: url(../image/Security\ 2\ smoll.png);
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    .features_title_box{
+        width: 273px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    br{
+        display: none;
+    }
+    .features_title_box p{
+        width: 239px;
+        margin: 20px 0 30px 0;
+
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .features_title_box button{
+        margin-top: 0;
+    }
+    .servise_container{
+        padding: 50px 0 59px 0;
+    }
+    .servise_article_box{
+        width: 296px;
+    }
+    .all_item_container{
+        width: 242px;
+    }
+}

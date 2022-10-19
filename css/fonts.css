@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Sen';
+    src: url('../fonts/sen/Sen-Bold.eot');
+    src: url('../fonts/sen/Sen-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sen/Sen-Bold.woff2') format('woff2'),
+        url('../fonts/sen/Sen-Bold.woff') format('woff'),
+        url('../fonts/sen/Sen-Bold.svg') format('svg');
+}
+@font-face {
+    font-family: 'Sen';
+    src: url('../fonts/sen/Sen-Regular.eot');
+    src: url('../fonts/sen/Sen-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sen/Sen-Regular.woff2') format('woff2'),
+        url('../fonts/sen/Sen-Regular.woff') format('woff'),
+        url('../fonts/sen/Sen-Regular.svg') format('svg');
+}
+
