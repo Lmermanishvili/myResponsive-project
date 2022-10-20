@@ -1,1 +1,1 @@
-# myResponsive-project
+# myresponsive-project
